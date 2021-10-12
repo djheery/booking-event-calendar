@@ -1,0 +1,24 @@
+.bacc-calendar__header, .bacc-calendar__dates {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.calendar__date {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all .4s ease-in-out
+}
+
+.calendar__date:hover {
+    background-color: #ba992f;
+    color: white;
+    font-size: calc(1rem + (1rem * 0.05));
+    cursor: pointer;
+}
+
+
+
