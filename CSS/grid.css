@@ -10,7 +10,8 @@
     width: 80px;
     border-radius: 50%;
     background-color: #f4f4f4;
-    transition: all .4s ease-in-out
+    transition: all .4s ease-in-out;
+    margin-bottom: 20px
 }
 
 .calendar__date:hover {
@@ -20,5 +21,8 @@
     cursor: pointer;
 }
 
+.bacc-calculator__inner-container {
+    /* transform: scale(0.7) */
+}
 
 
